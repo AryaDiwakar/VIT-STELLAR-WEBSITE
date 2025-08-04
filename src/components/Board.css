@@ -1,0 +1,136 @@
+/* Main Section */
+.board-section {
+  background-image: url("/images/space-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 2rem;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Title */
+.board-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 6px black;
+}
+
+/* Year Dropdown */
+.year-dropdown {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+/* Grid Layout: 5 columns × 2 rows */
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem 2.5rem;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Member Card */
+.member-wrapper {
+  position: relative;
+  width: 160px;
+  height: 360px;
+  border-radius: 100px;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.member-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px rgba(236, 72, 153, 0.6);
+}
+
+/* Member Image */
+.member-photo {
+  width: 350%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+  filter: brightness(1);
+  transition: filter 0.4s ease;
+}
+
+.member-wrapper:hover .member-photo {
+  filter: brightness(0.4) blur(2px);
+}
+
+/* Overlay */
+.member-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.member-wrapper:hover .member-overlay {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.member-name {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+  color: #fff;
+}
+
+.member-role {
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+/* Socials */
+.member-socials {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.member-socials img {
+  width: 22px;
+  height: 22px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.member-socials img:hover {
+  transform: scale(1.2);
+  filter: brightness(0) invert(1) drop-shadow(0 0 6px rgba(236, 72, 153, 0.8));
+}
+
+/* Responsive Layout */
+@media (max-width: 991px) {
+  .board-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .board-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .member-wrapper {
+    width: 140px;
+    height: 320px;
+  }
+}

@@ -1,0 +1,29 @@
+/* StatCard fixed box */
+.stat-card {
+  width: 13rem;     /* fixed width for all cards */
+  height: 9.25rem;     /* fixed height for all cards */
+}
+
+/* Container for one digit or + sign */
+.slot-digit-container {
+  width: 2.5rem;
+  height: 3.5rem; /* fixed height per digit */
+  overflow: hidden;
+  position: relative;
+}
+
+/* Vertical sliding wrapper */
+.slot-digit-inner {
+  transition: transform 1s ease-out;
+}
+
+/* Each digit row */
+.digit {
+  height: 3.5rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #ec4899;
+  font-weight: bold;
+  text-align: center;
+  font-family: monospace;
+}
