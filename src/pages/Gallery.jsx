@@ -7,30 +7,28 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
 const imagesData = {
   events: [
-    { filename: "6.webp", title: "Celestial Dive 24'" }, // Changed from .JPG
+    { filename: "6.webp", title: "Celestial Dive 24'" },
     { filename: "12.webp", title: "Ice Breakers 24'" },
     { filename: "17.webp", title: "Celestial Dive 23'" },
     { filename: "18.webp", title: "Celestial Dive 23'" },
     { filename: "24.webp", title: "Astrosymposium" },
-    { filename: "7.webp", title: "Nightslip Sept 24'" }, // Changed from .JPG
-    { filename: "6(2).webp", title: "One of the first nightslips 24'" },
+    { filename: "7.webp", title: "Nightslip Sept 24'" },
   ],
   culturals: [
-    { filename: "IMG_2145.webp", title: "Think It, Make It, Launch It - Space Day" }, // Changed from .jpg
-    { filename: "IMG_2898.webp", title: "Gravitas Expo 24'" }, // Changed from .jpg
-    { filename: "IMG_3424.webp", title: "Aerovate 24'" }, // Changed from .jpg
-    { filename: "IMG_3741.webp", title: "Space Week 24'" }, // Changed from .jpg
-    { filename: "IMG_7118.webp", title: "Board 25'" }, // Changed from .jpg
-    { filename: "IMG_7440.webp", title: "Celestial Combat 25'" }, // Changed from .jpg
-    { filename: "IMG_7457.webp", title: "Celestial Combat 25'" }, // Changed from .jpg
+    { filename: "IMG_2145.webp", title: "Think It, Make It, Launch It - Space Day" },
+    { filename: "IMG_2898.webp", title: "Gravitas Expo 24'" },
+    { filename: "IMG_3424.webp", title: "Aerovate 24'" },
+    { filename: "IMG_3741.webp", title: "Space Week 24'" },
+    { filename: "IMG_7118.webp", title: "Board 25'" },
+    { filename: "IMG_7440.webp", title: "Celestial Combat 25'" },
+    { filename: "IMG_7457.webp", title: "Celestial Combat 25'" },
   ],
   fests: [
-    { filename: "IMG_7510.webp", title: "Spinfinity 25'" }, // Changed from .jpg
-    { filename: "IMG_8207.webp", title: "Nightslip 25'" }, // Changed from .jpg
-    { filename: "PHOTO-2025-01-23-20-42-26.webp", title: "Riviera Expo 25'" }, // Changed from .jpg
-    { filename: "PHOTO-2025-03-29-11-54-49.webp", title: "Nightslip 25'" }, // Changed from .jpg
-    { filename: "5.webp", title: "Outreach @ Springdays 24'" }, // Changed from .png
-    { filename: "6(1).webp", title: "Zero Gravity Dance Party 24'" }, // Changed from .png
+    { filename: "IMG_7510.webp", title: "Spinfinity 25'" },
+    { filename: "IMG_8207.webp", title: "Nightslip 25'" },
+    { filename: "PHOTO-2025-01-23-20-42-26.webp", title: "Riviera Expo 25'" },
+    { filename: "PHOTO-2025-03-29-11-54-49.webp", title: "Nightslip 25'" },
+    { filename: "5.webp", title: "Outreach @ Springdays 24'" },
     { filename: "three.webp", title: "Riviera Expo 24'" },
   ],
 };
@@ -93,6 +91,7 @@ function GalleryPage() {
               data-aos="fade-up"
             >
               <img
+                loading="lazy"
                 src={`/images/gallery/${
                   imagesData[section][currentIndex[section]].filename
                 }`}

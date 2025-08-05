@@ -80,28 +80,8 @@ Black holes don't pull you in evenly. The gravitational force gets stronger the 
 That depends on the size of the black hole: Stellar-mass black holes (a few times the Sun's mass) have very steep gravitational gradients. You would be stretched and torn apart before you even cross the event horizon. Death would be almost instantaneous. Supermassive black holes (millions to billions of solar masses), like the one at the centre of our galaxy, have a much gentler gradient near the event horizon.            You could cross the horizon intact, with no immediate spaghettification. Only much deeper inside, closer to the singularity, would tidal forces rip you apart. So ironically, falling into a bigger black hole might let you survive longer. So what’s next Eventually, everything that falls into a black hole which heads toward the singularity, where density becomes infinite and physics as we know it breaks down. Whether anything can escape from inside or what exactly happens at the core is still unknown it’s one of the biggest mysteries in physics. Some theories suggest that quantum gravity or string theory might someday explain what happens, but for now, it’s hidden beyond the veil of the event horizon.
 Spaghettification isn’t just science fiction. it’s a real prediction from general relativity and physics. It combines time bending, space warping, and extreme gravity into one eerie outcome. By understanding black holes, event horizons, time dilation, and tidal forces, we begin to see how strange and beautiful the universe really is. `,
   },
+  
   4: {
-    title: "Rethinking the Cosmos: MOND and the Evolving Puzzle of Dark Matter and Dark Energy",
-    author: "Arna Adhikari",
-    content: `
-Life thrives on order, from planetary orbits to ecosystems. But what if we scrambled the solar system?
-
----
- Earth’s Fate in New Orbits
-Move Earth into Mars’ orbit? It becomes a frozen wasteland. Venus’ orbit? Oceans boil away.  
-
-Jupiter’s gravity protects Earth from asteroids. If moved closer, it could destabilize Earth’s orbit entirely.
-
----
- Neptune in Earth’s Orbit
-If Neptune took Earth’s orbit, its icy layers might melt into endless oceans. But winds at 1,200 mph would make it uninhabitable.
-
----
- The Fragile Balance
-Our solar system isn’t random—it’s a masterpiece shaped by gravity and time. Even minor disruptions could send worlds spiraling into ruin. Stability is an illusion, and the universe tolerates order only briefly.
-    `,
-  },
-  5: {
     title: "Baryon Asymmetry: The Tiny Imbalance That Built The Universe",
     author: "Jiya Jaiswal",
     content: `
@@ -156,7 +136,7 @@ isn't just academic, solving it could reshape our understanding of the universe�
 antimatter, and the nature of dark matter itself. Until then, baryon asymmetry stands as a beacon
 guiding physicists toward a deeper, more complete theory of reality.`,
   },
-  6: {
+  5: {
     title: "Asteroid Mining - The Journey from Space Rocks to Goldmines",
     author: "P. Varshaa",
     content: `What would happen if the next biggest treasure hunt does not occur on Earth, but on a

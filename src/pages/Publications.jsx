@@ -26,9 +26,8 @@ function PublicationsPage() {
     { id: 1, title: "The Science of Stillness: How We Study the Universe Without Ever Touching It", author: "Lavu Anvita", image: "/images/p5.webp" },
     { id: 2, title: "The Cosmic Tug of War - How the Great Attractor Shapes Galactic Motion", author: "Prateek Srinath", image: "/images/p2.webp" },
     { id: 3, title: "Spaghettification in Our Solar System: A Cosmic Catastrophe ", author: "Priyadharshini. V. S", image: "/images/p3.webp" },
-    { id: 4, title: "Rethinking the Cosmos: MOND and the Evolving Puzzle of Dark Matter and Dark Energy", author: "Arna Adhikari", image: "/images/p1.webp" },
-    { id: 5, title: "Baryon Asymmetry: The Tiny Imbalance That Built The Universe", author: "Jiya Jaiswal", image: "/images/p4.webp" },
-    { id: 6, title: "Asteroid Mining - The Journey from Space Rocks to Goldmines", author: "P. Varshaa", image: "/images/p6.webp" },
+    { id: 4, title: "Baryon Asymmetry: The Tiny Imbalance That Built The Universe", author: "Jiya Jaiswal", image: "/images/p4.webp" },
+    { id: 5, title: "Asteroid Mining - The Journey from Space Rocks to Goldmines", author: "P. Varshaa", image: "/images/p6.webp" },
   ];
 
   // All Issues

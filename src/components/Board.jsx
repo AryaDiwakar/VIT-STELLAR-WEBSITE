@@ -68,7 +68,7 @@ const boardData = {
     },
     {
       name: "Anirudh J",
-      role: "Editorial Lead",
+      role: "Editorial Head",
       img: "board10.webp", // Changed from .jpg
       instagram: "https://www.instagram.com/anirudh_j18/",
       linkedin: "https://www.linkedin.com/in/anirudh-janakiram-009b68299/",
